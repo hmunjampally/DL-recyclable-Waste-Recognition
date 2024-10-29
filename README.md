@@ -1,7 +1,11 @@
 # DL-recyclable-Waste-Recognition
-**Recyclable Waste Image Recognition Based on Deep Learning
-Problem Statement**
-With urbanization and increasing population, the amount of domestic waste is rising rapidly, posing serious environmental and logistical challenges. Correctly sorting waste is labor-intensive and prone to errors due to the wide variety of waste types. This project aims to develop an intelligent waste classification system using deep learning to automate and improve the accuracy of identifying recyclable waste, helping reduce the environmental impact and enhancing recycling efforts.
+
+
+
+                                                  **Recyclable Waste Image Recognition Based on Deep Learning**
+
+**Problem Statement**
+  With urbanization and increasing population, the amount of domestic waste is rising rapidly, posing serious environmental and logistical challenges. Correctly sorting waste is labor-intensive and prone to errors due to the wide variety of waste types. This project aims to develop an intelligent waste classification system using deep learning to automate and improve the accuracy of identifying recyclable waste, helping reduce the environmental impact and enhancing recycling efforts.
 **Background**
 Relevant readings include studies on image classification using deep learning (Reset), especially for waste sorting. Research by Thung and Yang (2016) on the TrashNet dataset is particularly useful for providing context and data for this project. Previous work highlights the limitations of traditional classification methods, which struggle with feature extraction and categorization accuracy, making deep learning an ideal solution.
 Link: https://www.sciencedirect.com/science/article/abs/pii/S0921344921002457
