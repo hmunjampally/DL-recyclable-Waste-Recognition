@@ -1,5 +1,11 @@
 # Recyclable Waste Image Recognition Based on Deep Learning
 
+## Team Members
+- Siri Chandana Garimella
+- Hima Sameera Munjampally
+- Rohini Kesiredyy
+- Shagun Sharma
+
 ## Problem Statement
 With urbanization and increasing population, the amount of domestic waste is rising rapidly, posing serious environmental and logistical challenges. Correctly sorting waste is labor-intensive and prone to errors due to the wide variety of waste types. 
 
