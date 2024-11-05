@@ -3,7 +3,7 @@
 ## Team Members
 - Siri Chandana Garimella
 - Hima Sameera Munjampally
-- Rohini Kesiredyy
+- Rohini Kesireddy
 - Shagun Sharma
 
 ## Problem Statement
