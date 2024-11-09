@@ -60,5 +60,3 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
   cd yolov5
   
   pip install -r requirements.txt
-
-## Step 2: Organize Dataset
