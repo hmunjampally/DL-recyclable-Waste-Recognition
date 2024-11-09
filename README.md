@@ -45,14 +45,20 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
 ## Implementation Steps
 ## Step 1: Setup and Install Dependencies
 ## 1. Clone the repository:
+  
   git clone https://github.com/hmunjampally/DL-recyclable-Waste-Recognition
+  
   cd DL-recyclable-Waste-Recognition
 
 ## 2. Set up your environment: Ensure you have Python 3.8+ and install necessary dependencies using:
   pip install -r requirements.txt
+  
   cd src
+  
   git clone https://github.com/ultralytics/yolov5
+  
   cd yolov5
+  
   pip install -r requirements.txt
 
 ## Step 2: Organize Dataset
