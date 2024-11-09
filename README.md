@@ -60,3 +60,6 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
   cd yolov5
   
   pip install -r requirements.txt
+
+## 3. Training YOLOv5
+  Navigate to the YOLOv5 Directory: Go to src/yolov5 where YOLOv5 is cloned.
