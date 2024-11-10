@@ -6,3 +6,7 @@ venv/
 
 #Ignore yolov5
 src/yolov5
+
+
+# Ignore macOS system files
+.DS_Store
