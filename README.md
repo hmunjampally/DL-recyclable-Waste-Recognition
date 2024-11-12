@@ -40,8 +40,7 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
 - [ResNet50 for Imbalanced Garbage Classification](https://www.kaggle.com/code/farzadnekouei/imbalanced-garbage-classification-resnet50)
 - [VGG19 for Waste Detection](https://ieeexplore.ieee.org/document/9499291/references#references)
 - [YOLO5 for Real-Time Waste Classification](https://www.sciencedirect.com/science/article/abs/pii/S095965262301716X)
-- 
-
+  
 ## Implementation Steps
 ## Step 1: Setup and Install Dependencies
 ## 1. Clone the repository:
