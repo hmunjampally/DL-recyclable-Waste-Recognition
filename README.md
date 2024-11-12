@@ -66,5 +66,5 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
 ## [Project Progress Documentation]
 
 please visit the documentation link below for project progress
-[https://sluedu-my.sharepoint.com/:w:/r/personal/himasameera_munjampally_slu_edu/Documents/Project%20Report.docx?d=w93aab4543a104839ac9ed47dca57d19e&csf=1&web=1&e=fczsqE]
+[https://sluedu-my.sharepoint.com/:w:/g/personal/himasameera_munjampally_slu_edu/EVS0qpMQOjlIrJ7UfcpX0Z4BVaU1s5-2ojV4JsF-Fk-Qjg?e=9BLn01]
 
