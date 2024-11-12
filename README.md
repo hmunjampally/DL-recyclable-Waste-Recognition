@@ -62,3 +62,9 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
 
 ## 3. Training YOLOv5
   Navigate to the YOLOv5 Directory: Go to src/yolov5 where YOLOv5 is cloned.
+
+## [Project Progress Documentation]
+
+please visit the documentation link below for project progress
+[https://sluedu-my.sharepoint.com/:w:/r/personal/himasameera_munjampally_slu_edu/Documents/Project%20Report.docx?d=w93aab4543a104839ac9ed47dca57d19e&csf=1&web=1&e=fczsqE]
+
