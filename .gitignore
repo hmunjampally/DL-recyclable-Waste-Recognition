@@ -9,3 +9,4 @@ yolov5
 training_results
 /data/
 __pycache__
+data
