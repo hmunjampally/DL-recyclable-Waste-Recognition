@@ -5,4 +5,7 @@ venv/
 .DS_Store
 
 #Ignore yolov5
-src/yolov5
+yolov5
+training_results
+/data/
+__pycache__

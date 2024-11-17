@@ -50,21 +50,44 @@ The combined YOLO-LightGlue approach avoids the need for complex manual feature 
   cd DL-recyclable-Waste-Recognition
 
 ## 2. Set up your environment: Ensure you have Python 3.8+ and install necessary dependencies using:
-  pip install -r requirements.txt
-  
-  cd src
-  
-  git clone https://github.com/ultralytics/yolov5
-  
-  cd yolov5
-  
-  pip install -r requirements.txt
 
-## 3. Training YOLOv5
-  Navigate to the YOLOv5 Directory: Go to src/yolov5 where YOLOv5 is cloned.
+  ### On Mac
+  The first time you want to run this code, you will need to:
+  1. Create a virtual environment: <code>python3 -m venv venv</code>
+  2. Activate virtual environment: 
+    * On Mac or Linux: <code>source venv/bin/activate</code>
+  3. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
+  4. Run the dataset_preparation.py file:
+     1. <code>cd src/data_handlers</code>
+     2. <code>python dataset_preparation.py</code>
+
+  On all subsequent runs, you will need to:
+  1. Activate virtual environment: 
+    * On Mac or Linux: <code>source venv/bin/activate</code>
+  2. Run the code:
+    * On Mac or Linux: 
+      * <code>cd src</code>
+      * <code>python main.py</code>
+
+  ### On Windows
+  The first time you want to run this code, you will need to:
+  1. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
+  2. Create a virtual environment: <code>py -m venv venv</code>
+  3. Activate virtual environment: 
+      * On Windows: <code>source venv/Scripts/activate</code>
+  4. Install dependencies into the virtual environment: <code>pip install -r requirements.txt</code>
+  5.  Run the dataset_preparation.py file:
+     1.  <code>cd src/data_handlers</code>
+     2.  <code>py dataset_preparation.py</code>
+
+  On all subsequent runs, you will need to:
+  6. Activate virtual environment: 
+    * On Windows: <code>source venv/Scripts/activate</code>
+  7. Run the code:
+      * <code>cd src</code>
+      * <code>py main.py</code>
 
 ## [Project Progress Documentation]
 
 please visit the documentation link below for project progress
 [https://sluedu-my.sharepoint.com/:w:/g/personal/himasameera_munjampally_slu_edu/EVS0qpMQOjlIrJ7UfcpX0Z4BVaU1s5-2ojV4JsF-Fk-Qjg?e=9BLn01]
-
