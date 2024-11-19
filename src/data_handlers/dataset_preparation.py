@@ -3,8 +3,10 @@ import random
 import shutil
 
 # Paths
-source_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/dataset"
-dest_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/data/TrashNet"
+#source_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/dataset"
+#dest_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/data/TrashNet"
+source_dir = "../src/dataset"
+dest_dir = "../src/data/trashnet"
 
 # Define classes
 class_mapping = {
