@@ -1,6 +1,0 @@
-train: trashnet/train/images
-val: trashnet/val/images
-test: trashnet/test/images
-
-nc: 6  # Number of classes
-names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
