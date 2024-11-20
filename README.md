@@ -27,14 +27,14 @@ Previous work highlights the limitations of traditional classification methods, 
 The primary dataset for this project is [TrashNet](https://www.kaggle.com/datasets/feyzazkefe/trashnet), which contains images of various waste categories such as cardboard, glass, metal, paper, plastic, and trash. This dataset will be used to train and evaluate the model.
 
 ## Methodology
-The project will implement a **YOLO (You Only Look Once)** model for real-time object detection in waste images. The YOLO architecture will be enhanced by integrating **LightGlue**, a lightweight feature-matching algorithm. This integration will enable the identification of super points, improving feature matching and recognition, particularly for images captured from challenging angles.
+The project will implement a **YOLO (You Only Look Once)** model for real-time object detection in waste images. The YOLO architecture will be enhanced by integrating **LightGlue(will try to implement if time permits)**, a lightweight feature-matching algorithm. This integration will enable the identification of super points, improving feature matching and recognition, particularly for images captured from challenging angles.
 
-The combined YOLO-LightGlue approach avoids the need for complex manual feature extraction and optimization, instead leveraging automatic feature learning for more accurate object detection and tracking in various waste classification scenarios.
+The combined YOLO-LightGlue(will try to implement if time permits) approach avoids the need for complex manual feature extraction and optimization, instead leveraging automatic feature learning for more accurate object detection and tracking in various waste classification scenarios.
 
 ## Evaluation Strategy
-1. **Implement YOLO+LightGlue on TrashNet**: Measure mAP, IoU, and F1-score across object classes.
+1. **Implement YOLO+ LightGlue(will try to implement if time permits) on TrashNet**: Measure mAP, IoU, and F1-score across object classes.
 2. **Evaluate feature matching quality**: Use precision-recall curves for keypoints at various view angles.
-3. **Conduct ablation study**: Compare YOLO baseline vs. YOLO+LightGlue, focusing on challenging cases.
+3. **Conduct ablation study**: Compare YOLO baseline vs. YOLO+ LightGlue(will try to implement if time permits), focusing on challenging cases.
 
 ## Overlapping Projects
 - [ResNet50 for Imbalanced Garbage Classification](https://www.kaggle.com/code/farzadnekouei/imbalanced-garbage-classification-resnet50)
