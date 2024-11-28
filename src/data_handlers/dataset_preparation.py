@@ -3,8 +3,6 @@ import random
 import shutil
 
 # Paths
-# source_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/dataset"
-# dest_dir = r"/Users/sirichandanagarimella/Documents/Fall2024/DeepLearning/DL-recyclable-Waste-Recognition/data/TrashNet"
 source_dir = r"../../dataset"
 dest_dir = r"../../data/TrashNet"
 
