@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a class="logo" href="./home.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="./contributors.html">Contributors</a></li>
+        </ul>
+    </nav>
+    <h1>Hello👋</h1>
+    <h2>Welcome to Recyclable Waste Recognition</h2>
+    <div class="upload-space">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <div class="block">
+                <lable for="image">Please upload the image here:</lable>
+                <input class="image" type="file" id="image" name="images" accept="image/*">
+                <br>
+                <button class="button" type="submit">Upload</button>
+                <p>Image goes into: </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
