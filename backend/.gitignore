@@ -1,0 +1,12 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore macOS system files
+.DS_Store
+
+#Ignore yolov5
+yolov5
+training_results
+/data/
+__pycache__
+data
