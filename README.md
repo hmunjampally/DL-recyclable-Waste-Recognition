@@ -67,7 +67,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
   2. Run the code:
     * On Mac or Linux: 
       * <code>cd src</code>
-      * <code>python main.py</code>
+      * <code>python train_test.py</code>
 
   ### On Windows
   The first time you want to run this code, you will need to:
@@ -85,7 +85,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
     * On Windows: <code>source venv/Scripts/activate</code>
   7. Run the code:
       * <code>cd src</code>
-      * <code>py main.py</code>
+      * <code>py train_test.py</code>
 
 ## [Project Progress Documentation]
 
