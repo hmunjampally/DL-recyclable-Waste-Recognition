@@ -59,7 +59,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
   3. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
   4. Run the dataset_preparation.py file:
      1. <code>cd src/data_handlers</code>
-     2. <code>python dataset_preparation.py</code>
+     2. <code>python3 dataset_preparation.py</code>
 
   On all subsequent runs, you will need to:
   1. Activate virtual environment: 
@@ -67,7 +67,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
   2. Run the code:
     * On Mac or Linux: 
       * <code>cd src</code>
-      * <code>python train_test.py</code>
+      * <code>python3 train_test.py --mode train</code>
 
   ### On Windows
   The first time you want to run this code, you will need to:
@@ -85,7 +85,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
     * On Windows: <code>source venv/Scripts/activate</code>
   7. Run the code:
       * <code>cd src</code>
-      * <code>py train_test.py</code>
+      * <code>py train_test.py --mode train</code>
 
 ## [Project Progress Documentation]
 
