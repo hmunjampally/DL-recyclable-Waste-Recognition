@@ -53,6 +53,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
 
   ### On Mac
   1. <code>cd backend</code>
+  
   The first time you want to run this code, you will need to:
   2. Create a virtual environment: <code>python3 -m venv venv</code>
   3. Activate virtual environment: 
@@ -82,6 +83,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
 
   ### On Windows
   1. <code>cd backend</code>
+  
   The first time you want to run this code, you will need to:
   2. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
   3. Create a virtual environment: <code>py -m venv venv</code>
