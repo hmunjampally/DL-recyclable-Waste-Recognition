@@ -70,9 +70,9 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
      * On Mac or Linux: 
        * <code>cd src</code>
        * To train the model : <code>python3 train_test.py --mode train</code>
-  4. Plot the graphs: <code>python3 train_test.py --mode plot</code>
-  5. Test the model: <code>python3 train_test.py --mode test --image <image_path></code>
-  6. To run the backend:
+  4. To plot the graphs: <code>python3 train_test.py --mode plot</code>
+  5. To test the model: <code>python3 train_test.py --mode test --image <image_path></code>
+  6. To run the backend (connects to the model weights internally after training the model):
      * <code>cd ..</code>
      * <code>python3 app.py</code>
   7. To run the frontend:
