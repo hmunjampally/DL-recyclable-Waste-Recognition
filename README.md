@@ -52,16 +52,15 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
 ## 2. Set up your environment: Ensure you have Python 3.8+ and install necessary dependencies using:
 
   ### On Mac
-  1. <code>cd backend</code>
-  
-  The first time you want to run this code, you will need to:
-  2. Create a virtual environment: <code>python3 -m venv venv</code>
-  3. Activate virtual environment: 
-     * On Mac or Linux: <code>source venv/bin/activate</code>
-  4. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
-  5. Run the dataset_preparation.py file:
-     * <code>cd src/data_handlers</code>
-     * <code>python3 dataset_preparation.py</code>
+  1. <code>cd backend</code>  
+  2. The first time you want to run this code, you will need to:
+    1. Create a virtual environment: <code>python3 -m venv venv</code>
+    2. Activate virtual environment: 
+       * On Mac or Linux: <code>source venv/bin/activate</code>
+    3. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
+    4. Run the dataset_preparation.py file:
+       * <code>cd src/data_handlers</code>
+       * <code>python3 dataset_preparation.py</code>
 
   On all subsequent runs, you will need to:
   1. <code>cd backend</code>
@@ -82,17 +81,16 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
      * <code>npm start</code>
 
   ### On Windows
-  1. <code>cd backend</code>
-  
-  The first time you want to run this code, you will need to:
-  2. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
-  3. Create a virtual environment: <code>py -m venv venv</code>
-  4. Activate virtual environment: 
-    * On Windows: <code>source venv/Scripts/activate</code>
-  5. Install dependencies into the virtual environment: <code>pip install -r requirements.txt</code>
-  6.  Run the dataset_preparation.py file:
-    * <code>cd src/data_handlers</code>
-    * code>py dataset_preparation.py</code>
+  1. <code>cd backend</code>  
+  2. The first time you want to run this code, you will need to:
+    1. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
+    2. Create a virtual environment: <code>py -m venv venv</code>
+    3. Activate virtual environment: 
+      * On Windows: <code>source venv/Scripts/activate</code>
+    4. Install dependencies into the virtual environment: <code>pip install -r requirements.txt</code>
+    5.  Run the dataset_preparation.py file:
+      * <code>cd src/data_handlers</code>
+      * code>py dataset_preparation.py</code>
 
   On all subsequent runs, you will need to:
   1. Activate virtual environment: 
