@@ -41,7 +41,7 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
 - [VGG19 for Waste Detection](https://ieeexplore.ieee.org/document/9499291/references#references)
 - [YOLO5 for Real-Time Waste Classification](https://www.sciencedirect.com/science/article/abs/pii/S095965262301716X)
   
-## Implementation Steps
+## Steps to run the application
 ## Step 1: Setup and Install Dependencies
 ## 1. Clone the repository:
   
@@ -52,40 +52,61 @@ The combined YOLO-LightGlue(will try to implement if time permits) approach avoi
 ## 2. Set up your environment: Ensure you have Python 3.8+ and install necessary dependencies using:
 
   ### On Mac
+  1. <code>cd backend</code>
   The first time you want to run this code, you will need to:
-  1. Create a virtual environment: <code>python3 -m venv venv</code>
+  2. Create a virtual environment: <code>python3 -m venv venv</code>
+  3. Activate virtual environment: 
+     * On Mac or Linux: <code>source venv/bin/activate</code>
+  4. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
+  5. Run the dataset_preparation.py file:
+     * <code>cd src/data_handlers</code>
+     * <code>python3 dataset_preparation.py</code>
+
+  On all subsequent runs, you will need to:
+  1. <code>cd backend</code>
   2. Activate virtual environment: 
-    * On Mac or Linux: <code>source venv/bin/activate</code>
-  3. Install dependencies into the virtual environment: <code>pip3 install -r requirements.txt</code>
-  4. Run the dataset_preparation.py file:
-     1. <code>cd src/data_handlers</code>
-     2. <code>python3 dataset_preparation.py</code>
+     * On Mac or Linux: <code>source venv/bin/activate</code>
+  3. Run the code:
+     * On Mac or Linux: 
+       * <code>cd src</code>
+       * To train the model : <code>python3 train_test.py --mode train</code>
+  4. Plot the graphs: <code>python3 train_test.py --mode plot</code>
+  5. Test the model: <code>python3 train_test.py --mode test --image <image_path></code>
+  6. To run the backend:
+     * <code>cd ..</code>
+     * <code>python3 app.py</code>
+  7. To run the frontend:
+     * <code>cd ../frontend</code>
+     * <code>npm install</code>
+     * <code>npm start</code>
+
+  ### On Windows
+  1. <code>cd backend</code>
+  The first time you want to run this code, you will need to:
+  2. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
+  3. Create a virtual environment: <code>py -m venv venv</code>
+  4. Activate virtual environment: 
+    * On Windows: <code>source venv/Scripts/activate</code>
+  5. Install dependencies into the virtual environment: <code>pip install -r requirements.txt</code>
+  6.  Run the dataset_preparation.py file:
+    * <code>cd src/data_handlers</code>
+    * code>py dataset_preparation.py</code>
 
   On all subsequent runs, you will need to:
   1. Activate virtual environment: 
-    * On Mac or Linux: <code>source venv/bin/activate</code>
-  2. Run the code:
-    * On Mac or Linux: 
-      * <code>cd src</code>
-      * <code>python3 train_test.py --mode train</code>
-
-  ### On Windows
-  The first time you want to run this code, you will need to:
-  1. Install Git Bash (if not already installed) and in VS code open the terminal of type Git Bash
-  2. Create a virtual environment: <code>py -m venv venv</code>
-  3. Activate virtual environment: 
-      * On Windows: <code>source venv/Scripts/activate</code>
-  4. Install dependencies into the virtual environment: <code>pip install -r requirements.txt</code>
-  5.  Run the dataset_preparation.py file:
-     1.  <code>cd src/data_handlers</code>
-     2.  <code>py dataset_preparation.py</code>
-
-  On all subsequent runs, you will need to:
-  6. Activate virtual environment: 
     * On Windows: <code>source venv/Scripts/activate</code>
-  7. Run the code:
+  2. Run the code:
       * <code>cd src</code>
-      * <code>py train_test.py --mode train</code>
+      * To train the model : <code>py train_test.py --mode train</code>
+  3. To plot the graphs: <code>py train_test.py --mode plot</code>
+  4. To test the model: <code>py train_test.py --mode test --image <image_path></code>
+  5. To run the backend:
+     * <code>cd ..</code>
+     * <code>py app.py</code>
+  7. To run the frontend:
+     * <code>cd ../frontend</code>
+     * <code>npm install</code>
+     * <code>npm start</code>
 
 ## [Project Progress Documentation]
 
